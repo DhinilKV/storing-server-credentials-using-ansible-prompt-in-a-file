@@ -27,7 +27,9 @@ control.example.com        : ok=3    changed=2    unreachable=0    failed=0
 ++++++++++
 
  hostname:server1.example.com
+ 
  username:bob
+ 
  password:redhat
  
 ++++++++++
