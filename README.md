@@ -25,6 +25,11 @@ Please follow the below steps:
 
 #ansible-playbook -i hosts  playbook.yml
 
+5. View the file
+
+#cd ~ ; cat logindb.txt
+
+
 Here is the sample output of the file.
 
 [project1@control project]$ ansible-playbook -i hosts  playbook.yml
