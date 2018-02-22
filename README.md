@@ -1,9 +1,11 @@
 # username-and-password-database-using-prompt
-This is s simple script in ansible to save the credentials of servers to a file. The default schema is hostname, username and password. You can change accroding to yoor needs
+This is s simple script in ansible to save the credentials of servers to a file. The default schema is hostname, username and password. You can change accroding to your needs
 The credentails are stored to a file inside the project directory called logindb.txt
 The login.txt file is located in the home directory of the user who run the script.
-For exapmple if user called bob is running the script then the database location is as follow.
+For example if user called bob is running the script then the database location is as follow.
 /home/bob/logindb.txt
+
+The follow the below steps:
 
 1.Create a project directory "project".
 
