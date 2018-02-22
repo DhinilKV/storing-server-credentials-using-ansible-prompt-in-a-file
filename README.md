@@ -16,10 +16,15 @@ enter the password: redhat
 PLAY RECAP *************************************************************************************************************************************************************
 control.example.com        : ok=3    changed=2    unreachable=0    failed=0
 
+
 [project1@control ~]$cat logindb.txt
 ++++++++++
  hostname:server1.example.com
  username:bob
  password:redhat
 ++++++++++
+
+
+
+
 
