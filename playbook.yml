@@ -1,0 +1,20 @@
+---
+- name: This is database to save username and password of server
+  hosts: control
+
+  vars_prompt:
+   - name: hostname
+     promt: enter the hostname or IP address
+     private: no
+   - name: username
+     prompt: enter the username
+     private: no
+   - name: password
+     prompt: enter the password
+     private: yes
+  tasks:
+  - file:
+     path: logindb.txt
+     state: touch
+  - shell: echo -e "++++++++++" '\n' "hostname:{{hostname}}" '\n' "username:{{ username }}" '\n' "password:{{password}}" '\n'"++++++++++" '\n'>> logindb.txt
+...
