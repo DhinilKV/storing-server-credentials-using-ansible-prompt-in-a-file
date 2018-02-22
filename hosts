@@ -1,0 +1,3 @@
+# change the hostname of to your server hostname here.
+[host]
+server1.example.com
