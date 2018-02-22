@@ -9,8 +9,12 @@ For exapmple if user called bob is running the script then the database location
 Here is the sample output of the file.
 
 [project1@control project]$ ansible-playbook -i hosts  playbook.yml
+
+
 enter the hostname: server1.example.com
+
 enter the username: bob
+
 enter the password: redhat
 
 PLAY RECAP *************************************************************************************************************************************************************
@@ -18,10 +22,14 @@ control.example.com        : ok=3    changed=2    unreachable=0    failed=0
 
 
 [project1@control ~]$cat logindb.txt
+
+
 ++++++++++
+
  hostname:server1.example.com
  username:bob
  password:redhat
+ 
 ++++++++++
 
 
