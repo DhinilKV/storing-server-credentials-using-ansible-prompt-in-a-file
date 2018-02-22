@@ -5,7 +5,7 @@ The login.txt file is located in the home directory of the user who run the scri
 For example if user called bob is running the script then the database location is as follow.
 /home/bob/logindb.txt
 
-The follow the below steps:
+Please follow the below steps:
 
 1.Create a project directory "project".
 
