@@ -5,6 +5,15 @@ The login.txt file is located in the home directory of the user who run the scri
 For exapmple if user called bob is running the script then the database location is as follow.
 /home/bob/logindb.txt
 
+1.Create a project directory "project".
+#mkdir project
+2.Create a hosts file (inventory file ) inside the project directory. update the hostname of your server into the hosts file.
+#cd project
+#vi hosts 
+3.Create a playbook file.
+#vi playbook.yml
+4.Run the playbook.
+#ansible-playbook -i hosts  playbook.yml
 
 Here is the sample output of the file.
 
